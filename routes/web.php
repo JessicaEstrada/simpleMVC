@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ProductsController;    
+use App\Http\Controllers\ProductsController;
+use App\Http\Controllers\AdminController;
 
 
 /*
@@ -21,4 +22,6 @@ Route::get('/', function () {
 
 Route::get('/products', [ProductsController::class, 'products'])->name('products');
 
-Route::get('/about', [ProductsController::class, 'about'])->name('about');
+Route::resource('/admin', AdminController::class);
+
+

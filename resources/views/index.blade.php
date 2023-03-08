@@ -27,7 +27,7 @@
         <nav class="navbar navbar-light bg-light static-top">
             <div class="container">
                 <a class="navbar-brand" href="#!">Boba Milktea</a>
-                <a class="btn btn-primary" href="#products">Products</a>
+                <a class="btn btn-primary" href="/products">Products</a>
                 
             </div>
         </nav>
