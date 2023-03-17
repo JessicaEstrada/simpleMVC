@@ -9,7 +9,7 @@
                 @method("PATCH")
                 <input type="hidden" name="id" id="id" value="{{$product_info -> id}}" id="id"/>
                 <label>Flavor</label><br>
-                <input type="text" name="type" id="name" value="{{$product_info -> flavor}}" class="form-control"><br>
+                <input type="text" name="flavor" id="name" value="{{$product_info -> flavor}}" class="form-control"><br>
                 <label>Description</label><br>
                 <input type="text" name="desc" id="paragraph" value="{{$product_info -> desc}}" class="form-control"><br>
                 <label>Image</label><br>
